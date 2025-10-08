@@ -10,7 +10,7 @@ const [numeros, setNumeros] = useState([0, 0, 0, 0, 0,0, 0, 0, 0, 0]);
   function tabla_multiplicar(){
 const vec = new Array(10)
  for (let x = 0; x < vec.length; x++)
-      vec[x] = x *  2
+      vec[x] = x *  6
     setNumeros(vec)
 }
  
